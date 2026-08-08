@@ -1,6 +1,8 @@
+# ----------start Introduce library in Python-------
 from tkinter import*
 import random
 from tkinter import messagebox
+# ----------End Introduce library in Python-------
 def run1():
     m=e1.get()
     u=""
