@@ -1,0 +1,159 @@
+from tkinter import*
+import random
+from tkinter import messagebox
+def run1():
+    m=e1.get()
+    u=""
+    l2.config(text="",bg="white",font=("",0))
+    if(m==y):
+        tk2.destroy()
+        tk1=Tk()
+        tk1.title("Paint")
+        tk1.geometry("1000x1000")
+        c1=Canvas(tk1,width=2000,height=20000,bg="sky blue")
+        c1.place(x=0,y=0)
+        c1.create_rectangle(-8,700,15100,800,fill="green",outline="green")
+        c1.create_rectangle(100,300,500,700,fill="dodger blue",outline="black",width=3)
+        c1.create_rectangle(200,500,350,700,fill="cyan",outline="black",width=3)
+        c1.create_line(230,590,230,620,fill="black",width=4)
+        c1.create_polygon(100,300,280,50,500,300,fill="navy",outline="black",width=3)
+        c1.create_rectangle(180,350,280,450,fill="white",outline="black",width=3)
+        c1.create_line(230,350,230,450,width=3)
+        c1.create_line(180,400,280,400,width=3)
+        c1.create_rectangle(990,400,1060,700,fill="brown",outline="black")
+        c1.create_oval(799,150,1192,500,fill="dark green")
+        c1.create_oval(1180,640,1240,700,fill="black")
+        c1.create_oval(1350,640,1410,700,fill="black")
+        c1.create_rectangle(1150,550,1450,650,fill="darkred",outline="black")
+        c1.create_rectangle(1200,450,1400,550,fill="darkred",outline="darkred")
+        c1.create_rectangle(1220,470,1380,550,fill="white",outline="black",width=3)
+        c1.create_line(1300,470,1300,550,width=4)
+        c1.create_line(1320,580,1350,580,fill="black",width=3)
+        c1.create_line(1230,580,1260,580,fill="black",width=3)
+        c1.create_rectangle(1445,604,1449,634,fill="antique white",outline="antique white")
+        c1.create_rectangle(1150,608,1156,638,fill="dark orange",outline="dark orange")
+        c1.create_rectangle(1150,590,1156,613,fill="red",outline="red")
+        c1.create_rectangle(1220,470,1380,550,fill="white",outline="black",width=3)
+        c1.create_line(1300,470,1300,550,width=4)
+        c1.create_line(1320,580,1350,580,fill="black",width=3)
+        c1.create_line(1230,580,1260,580,fill="black",width=3)
+        c1.create_rectangle(1445,604,1449,634,fill="antique white",outline="antique white")
+        c1.create_rectangle(1150,608,1156,638,fill="dark orange",outline="dark orange")
+        c1.create_rectangle(1150,590,1156,613,fill="red",outline="red")
+        c1.create_rectangle(650,450,750,580,fill="red",width=4)
+        c1.create_rectangle(649,580,700,685,fill="gray",width=3)
+        c1.create_rectangle(700,580,750,685,fill="gray",width=3)
+        c1.create_rectangle(648,680,700,710,fill="black")
+        c1.create_rectangle(700,680,753,710,fill="black")
+        c1.create_rectangle(620,450,650,545,fill="red",width=4)
+        c1.create_rectangle(750,450,780,545,fill="red",width=4)
+        c1.create_rectangle(619,545,650,565,fill="white",width=3)
+        c1.create_rectangle(750,545,780,565,fill="white",width=3)
+        c1.create_oval(640,350,740,450,fill="white",width=3)
+        c1.create_line(662,390,670,390,width=6)
+        c1.create_line(700,390,708,390,width=6)
+        c1.create_line(660,420,710,420,width=6)
+     
+    elif(m==u):
+        m1=messagebox.showerror("پنجره خطا","کد امنيتي وارد نشده است")
+        print(m1)
+    elif(m!=y):
+        m=messagebox.showerror("پنجره خطا","کد امنيتي وارد شده اشتباه است")
+        print(m)
+ 
+def run2(event):
+    m=e1.get()
+    l2.config(text="")
+    u=""
+    if(m==y):
+        tk2.destroy()
+        tk1=Tk()
+        tk1.geometry("1000x1000")
+        tk1.title("Paint")
+        c1=Canvas(tk1,width=2000,height=20000,bg="sky blue")
+        c1.place(x=0,y=0)
+        c1.create_rectangle(-8,700,15100,800,fill="green",outline="green")
+        c1.create_rectangle(100,300,500,700,fill="dodger blue",outline="black",width=3)
+        c1.create_rectangle(200,500,350,700,fill="cyan",outline="black",width=3)
+        c1.create_line(230,590,230,620,fill="black",width=4)
+        c1.create_polygon(100,300,280,50,500,300,fill="navy",outline="black",width=3)
+        c1.create_rectangle(180,350,280,450,fill="white",outline="black",width=3)
+        c1.create_line(230,350,230,450,width=3)
+        c1.create_line(180,400,280,400,width=3)
+        c1.create_rectangle(990,400,1060,700,fill="brown",outline="black")
+        c1.create_oval(799,150,1192,500,fill="dark green")
+        c1.create_oval(1180,640,1240,700,fill="black")
+        c1.create_oval(1350,640,1410,700,fill="black")
+        c1.create_rectangle(1150,550,1450,650,fill="darkred",outline="black")
+        c1.create_rectangle(1200,450,1400,550,fill="darkred",outline="darkred")
+        c1.create_rectangle(1220,470,1380,550,fill="white",outline="black",width=3)
+        c1.create_line(1300,470,1300,550,width=4)
+        c1.create_line(1320,580,1350,580,fill="black",width=3)
+        c1.create_line(1230,580,1260,580,fill="black",width=3)
+        c1.create_rectangle(1445,604,1449,634,fill="antique white",outline="antique white")
+        c1.create_rectangle(1150,608,1156,638,fill="dark orange",outline="dark orange")
+        c1.create_rectangle(1150,590,1156,613,fill="red",outline="red")
+        c1.create_rectangle(1220,470,1380,550,fill="white",outline="black",width=3)
+        c1.create_line(1300,470,1300,550,width=4)
+        c1.create_line(1320,580,1350,580,fill="black",width=3)
+        c1.create_line(1230,580,1260,580,fill="black",width=3)
+        c1.create_rectangle(1445,604,1449,634,fill="antique white",outline="antique white")
+        c1.create_rectangle(1150,608,1156,638,fill="dark orange",outline="dark orange")
+        c1.create_rectangle(1150,590,1156,613,fill="red",outline="red")
+        c1.create_rectangle(650,450,750,580,fill="red",width=4)
+        c1.create_rectangle(649,580,700,685,fill="gray",width=3)
+        c1.create_rectangle(700,580,750,685,fill="gray",width=3)
+        c1.create_rectangle(648,680,700,710,fill="black")
+        c1.create_rectangle(700,680,753,710,fill="black")
+        c1.create_rectangle(620,450,650,545,fill="red",width=4)
+        c1.create_rectangle(750,450,780,545,fill="red",width=4)
+        c1.create_rectangle(619,545,650,565,fill="white",width=3)
+        c1.create_rectangle(750,545,780,565,fill="white",width=3)
+        c1.create_oval(640,350,740,450,fill="white",width=3)
+        c1.create_line(662,390,670,390,width=6)
+        c1.create_line(700,390,708,390,width=6)
+        c1.create_line(660,420,710,420,width=6)
+     
+    elif(m==u):
+        m1=messagebox.showerror("پنجره خطا","کد امنيتي وارد نشده است")
+        print(m1)
+    elif(m!=y):
+        m=messagebox.showerror("پنجره خطا","کد امنيتي وارد شده اشتباه است")
+        print(m)
+ 
+
+tk2=Tk()
+tk2.geometry("500x500+500+100")
+tk2.title("Paint")
+
+tk2.maxsize(500,500)
+tk2.config(bg="dark gray")
+abc=["Q","W","E","R","T","Y","U","I","O","P","A","S","D","F","G","G","H","J","K","L","Z","X","C","V","B","N","M"]
+q=random.choice(abc)
+a=random.randint(0,9)
+b=random.randint(0,9)
+c=random.choice(abc)
+d=random.choice(abc)
+y=q+str(a)+str(b)+c+d
+l1=Label(tk2,text=": کد امنيتي",font=("",20),bg="dark gray")
+l1.place(x=370,y=50)
+e1=Entry(tk2,font=("",20),width=16)
+e1.place(x=230,y=100)
+l2=Label(tk2,text="کد امنيتي زيرا را در اين قسمت وارد کنيد",bg="white")
+l2.place(x=270,y=110)
+l3=Label(tk2,text=y,font=("",20),bg="linen")
+l3.place(x=270,y=170)
+b1=Button(tk2,text="ورود",font=("",18,"bold"),bd=10,bg="gray",command=run1)
+b1.place(x=290,y=230)
+tk2.bind_all("<Return>",run2)
+tk2.mainloop()
+
+
+
+
+
+
+
+
+    
+ 
