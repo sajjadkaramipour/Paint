@@ -124,7 +124,7 @@ def run2(event):
 
 tk2=Tk()
 tk2.geometry("500x500+500+100")
-tk2.title("Paint")
+tk2.title("Paint-project")
 
 tk2.maxsize(500,500)
 tk2.config(bg="dark gray")
