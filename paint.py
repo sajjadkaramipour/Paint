@@ -149,13 +149,4 @@ b1=Button(tk2,text="ورود",font=("",18,"bold"),bd=10,bg="gray",command=run1)
 b1.place(x=290,y=230)
 tk2.bind_all("<Return>",run2)
 tk2.mainloop()
-
-
-
-
-
-
-
-
-    
- 
+# --------End Paint project----------
