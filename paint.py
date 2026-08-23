@@ -150,5 +150,3 @@ b1.place(x=290,y=230)
 tk2.bind_all("<Return>",run2)
 tk2.mainloop()
 # --------End Paint project----------
-
-#-----------darling------------
